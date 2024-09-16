@@ -1,0 +1,103 @@
+.cards {
+    margin-top: 20px; 
+    mat-card + mat-card {
+      margin-top: 20px;
+    }
+  }
+
+.container{
+  direction: rtl;
+  width: 100%;
+  padding-top: 0px;
+}
+
+#bagName{
+  line-height: 180px;
+  height: 220px;
+  color:  #fcbf09 ;
+  border-color: white;
+  border-width: 5px;
+  border-style: double;
+  border-radius: 2px;
+  padding: 10px;
+  &:hover{
+      opacity: 0.7;
+      border-style: groove;
+      border-radius: 4px;
+  }
+}
+
+.titles{
+  color: rgb(255, 253, 251);
+  background-color: rgb(37, 37, 37);
+  padding: 15px;
+}
+
+.main-checkbox{
+  position: absolute;
+  left: 30px;
+}
+
+.task-details{
+  font-size: small;
+  color: gray;
+}
+
+.tasks-list mat-list-option {
+  height: auto !important;
+  padding: 5px;
+}
+
+.marker{
+  background-color: yellow;
+}
+
+.bold-text{
+  font-weight: bold;
+}
+
+.task-container{
+  border-color: gray;
+  border-width: 5px;
+  border-radius: 5px;
+}
+
+.complete-task{
+  text-decoration: line-through;
+}
+
+.quarter{
+  max-width: 30%;
+  padding-left: 15px;
+}
+
+.task-button{
+  margin-left: 15px;
+  margin-top: 20px;
+}
+
+@media print {
+  app-logins-to-print  {
+      display: block;
+    }
+
+  .body, .row, * {
+    display: none;
+  }
+}
+
+#bagImg {  
+  direction: rtl;
+  background-image: url("../../../../../../../images/bagName.jpg");  
+  background-size: cover;  
+  min-height: 220px;
+  padding: 20px;
+  text-align: center;
+}
+
+.mm{
+  margin-right:0px;
+  margin-right: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+}

@@ -1,0 +1,42 @@
+.container, .print-container{
+    direction: rtl;
+}
+
+#x{
+    text-align: left;
+    position: relative;
+}
+
+.state-badge{
+    position: absolute;
+    right: 0;
+}
+
+#bag-dialog-actions{
+    position: relative;
+    right:75%;
+}
+
+.bag-dialog-button{
+    margin-left: 7px;
+}
+
+#main-title{
+    font-size: 25px;
+}
+
+@media print {
+    .print-container > app-logins-to-print  {
+        display: block;
+      }
+
+    .container {
+      display: none;
+    }
+  }
+
+  .close-icon{
+    position: relative;
+    bottom: -18px;
+    left: 20px;
+  }

@@ -1,0 +1,76 @@
+.navbar-login, .container
+{
+    min-width: 365px;
+    width: fit-content;
+    padding: 10px;
+    padding-bottom: 0px;
+}
+
+.navbar-right{
+    max-width: 305px;
+}
+
+
+.navbar-login-session
+{
+    padding: 10px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+.icon-size
+{
+    font-size: 87px;
+}
+
+.s{
+    margin: 0px;
+}
+
+small{
+    color: var(--bs-link-color);
+}
+
+small:hover{
+    opacity: 50%;
+    cursor: pointer;
+}
+
+li {
+    list-style-type: none;
+}
+
+.btn{
+    color: white;
+}
+
+#warning{
+    color: red;
+    &:hover{
+        opacity: 50%;
+        cursor: pointer;
+    }
+}
+
+.icon{
+    position: relative;
+    top: 6px;
+    margin-right: 20px;
+}
+
+.logOut{
+    // margin-top: 5px;
+    padding-right: 247px;
+}
+
+#edit-save-button{
+    position: absolute;
+    right: 22px;
+    bottom: 10px;
+}
+
+#edit-cancel-button{
+    position: absolute;
+    right: 100px;
+    bottom: 10px;
+}

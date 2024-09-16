@@ -1,0 +1,24 @@
+.listOptionTitle{
+    font-weight: bold;
+}
+
+.listOptionLine{
+    opacity: 0.5;
+    font-size: 80%;
+}
+
+.space{
+    min-height: 20px;
+}
+
+.halfWidth{
+    width: 50%;
+}
+
+.sixty-percent-width{
+    width: 64%;
+}
+
+.redText{
+    color: red;
+}
